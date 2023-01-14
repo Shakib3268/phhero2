@@ -1,5 +1,88 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+/* common style */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+.header {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.primary-btn {
+  background: #ff900e;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+}
+
+/* nav styles */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 20px;
+}
+.main-nav h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 24px;
+}
+
+.main-nav ul li {
+  list-style: none;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
+
+/* brand styles  */
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.brand-deatails {
+  text-align: center;
+}
+
+.brand-deatails h3 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.brand-info {
+  font-size: 16px;
+  color: #727272;
+  line-height: 26px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.brand-img img {
+  width: 1100px;
+  max-height: 100vh;
+  border-radius: 8px;
+  margin-top: 100px;
 }
