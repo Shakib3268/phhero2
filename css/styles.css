@@ -101,7 +101,7 @@ body {
   margin-top: 78px;
 }
 
-.row{
+.feauture-details{
   position: relative;
   top: 195px;
   left: 73px;
@@ -120,7 +120,7 @@ font-size: 45px;
 color: #727272;
 margin-bottom: 24px;
 }
-.col p{
+.feauture-info p{
   font-size: 16px;
   color: #727272;
   margin-bottom: 31px;
@@ -286,7 +286,7 @@ height: 40px;
   color: #727272;
 }
 .about-img img{
-  height: 700px;
+  height: 600px;
 }
 
 /* --footer style--- */
@@ -325,7 +325,7 @@ footer:hover{
   .feautures{
     flex-direction: column;
   }
-  .row{
+  .feauture-details{
     top: 50px;
     left: 7px;
   }
