@@ -353,7 +353,7 @@ footer:hover {
   }
   .sponsar {
     text-align: center !important;
-    margin-left: 20%;
+    margin-left: 10%;
   }
   .sponsar-logo {
     grid-template-columns: repeat(1, 1fr);
@@ -362,7 +362,7 @@ footer:hover {
     margin-left: 40%;
   }
   .about-info {
-    margin-left: 15%;
+    margin-left: 5%%;
   }
   footer {
     padding: 20px 30px;
