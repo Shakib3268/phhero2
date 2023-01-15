@@ -176,6 +176,12 @@ body {
   left: 50%;
   z-index: 1;
   margin-top: 47%;
+  font-weight: 700;
+  font-size: 25px;
+}
+.des-btn{
+  font-weight: 500;
+font-size: 14px;
 }
 
 .description:hover {
