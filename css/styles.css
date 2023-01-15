@@ -100,9 +100,9 @@ body {
   margin-top: 78px;
 }
 
-.feauture-details {
+.feauture-info {
   position: relative;
-  top: 195px;
+  top: 170px;
   left: 73px;
 }
 .row-1 {
@@ -112,7 +112,7 @@ body {
   color: #ff900e;
 }
 
-.col h3 {
+.feauture-info h3 {
   font-weight: 700;
   font-size: 45px;
   color: #727272;
@@ -329,7 +329,8 @@ footer:hover {
   .feautures {
     flex-direction: column;
   }
-  .feauture-details {
+  
+  .feauture-info {
     top: 50px;
     left: 7px;
   }
